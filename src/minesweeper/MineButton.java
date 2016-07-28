@@ -8,7 +8,6 @@ package minesweeper;
 import java.util.Map;
 import javafx.scene.control.Button;
 import javafx.scene.layout.Background;
-import javafx.scene.paint.Color;
 
 /**
  *
