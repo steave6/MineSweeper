@@ -21,8 +21,7 @@ public class MineSweeper extends Application {
     public void start(Stage primaryStage) {
         Stage window = primaryStage;
 
-        MineField field = new MineField(25, 35);
-        System.out.println(field.MapComplete());
+        MineField field = new MineField(15, 10);
         GridPane gridfield = field.Field();
         
         AnchorPane anchorPane = new AnchorPane();
